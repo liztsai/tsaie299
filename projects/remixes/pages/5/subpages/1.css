@@ -1,0 +1,23 @@
+div {
+  transition: all 0.3s ease;
+  animation-duration: 4s;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 48px;
+}
+
+p {
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.4s;
+}
+
+p:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}

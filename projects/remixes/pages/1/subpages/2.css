@@ -1,0 +1,22 @@
+div {
+  transition: all 0.3s ease;
+}
+
+body {
+  background-color: black;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+p {
+  color: white;
+  opacity: 1;
+}
+
+p:hover {
+  color: #ADFF2F;
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+   transform: scale(1.4);
+}
+
