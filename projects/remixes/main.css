@@ -7,10 +7,10 @@ body {
 
 p {
   color: white;
-  opacity: 0.4;
+  opacity: 1;
   transition: opacity 0.4s;
 }
 
 p:hover {
-  opacity: 1;
+  opacity: 0.2;
 }
