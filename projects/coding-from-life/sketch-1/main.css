@@ -1,0 +1,141 @@
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: bisque;
+  margin: 30px auto;
+  position: relative;
+}
+
+.table{
+  width: 700px;
+  height: 25px;
+  background: thistle;
+  margin: 30px auto;
+  position: relative;
+  top: 500px;
+}
+
+.book-bottom{
+  width: 220px;
+  height: 20px;
+  background: paleturquoise;
+  margin: 30px auto;
+  position: absolute;
+  top: 450px;
+  right: 505px;
+}
+
+.book-middle{
+  width: 165px;
+  height: 45px;
+  background: teal;
+  margin: 30px auto;
+  position: absolute;
+  top: 410px;
+  right: 560px;
+}
+
+.book-top{
+  width: 115px;
+  height: 35px;
+  background: white;
+  margin: 30px auto;
+  position: absolute;
+  top: 380px;
+  right: 605px;
+}
+
+.vase {
+  width: 105px;
+  height: 155px;
+  background: white;
+  margin: 30px auto;
+  position: absolute;
+  top: 315px;
+  right: 305px;
+  border-radius: 45px;
+}
+.vase-bottom {
+  width: 105px;
+  height: 45px;
+  background: white;
+  margin: 30px auto;
+  position: absolute;
+  top: 425px;
+  right: 305px;
+  border-radius: 5%;
+}
+
+.vase-top {
+  width: 55px;
+  height: 75px;
+  background: white;
+  margin: 30px auto;
+  position: absolute;
+  top: 290px;
+  right: 330px;
+  border-radius: 10%;
+}
+
+.flower-stem {
+  width: 12px;
+  height: 45px;
+  background: mediumseagreen;
+  margin: 30px auto;
+  position: absolute;
+  top: 245px;
+  right: 337px;
+}
+
+.candle {
+  width: 35px;
+  height: 40px;
+  background: indigo;
+  margin: 30px auto;
+  position: absolute;
+  top: 430px;
+  right: 395px;
+  border-radius: 10%;
+}
+
+.flower-stem2 {
+  width: 9px;
+  height: 45px;
+  background: mediumseagreen;
+  margin: 30px auto;
+  position: absolute;
+  top: 245px;
+  right: 345px;
+}
+
+.petal {
+border-radius: 5px 90%;
+  border-color: black;
+  background-color: darkviolet;
+  height: 40px;
+  margin: auto;
+  width: 30px;
+  position: absolute;
+  top: 230px;
+  right: 345px;
+
+}
+
+.petal2 {
+border-radius: 5px 90%;
+  border-color: black;
+  background-color: mediumpurple;
+  height: 40px;
+  margin: auto;
+  width: 30px;
+  position: absolute;
+  top: 230px;
+  right: 335px;
+  transform: rotate(45deg);
+
+
+/* Your CSS goes here */
