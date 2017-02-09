@@ -12,7 +12,7 @@ body {
 
 .table{
   width: 700px;
-  height: 25px;
+  height: 55px;
   background: thistle;
   margin: 30px auto;
   position: relative;
@@ -22,6 +22,9 @@ body {
 .book-bottom{
   width: 220px;
   height: 20px;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
   background: paleturquoise;
   margin: 30px auto;
   position: absolute;
@@ -31,8 +34,14 @@ body {
 
 .book-middle{
   width: 165px;
-  height: 45px;
+  height: 40px;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
   background: teal;
+  color: white;
+  font-size: 18px;
+  text-align: center;
   margin: 30px auto;
   position: absolute;
   top: 410px;
@@ -41,11 +50,16 @@ body {
 
 .book-top{
   width: 115px;
-  height: 35px;
+  height: 30px;
+  color: black;
+  font-size: 10px;
   background: white;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
   margin: 30px auto;
   position: absolute;
-  top: 380px;
+  top: 376px;
   right: 605px;
 }
 
@@ -82,13 +96,24 @@ body {
 }
 
 .flower-stem {
-  width: 12px;
+  width: 11px;
   height: 45px;
   background: mediumseagreen;
   margin: 30px auto;
   position: absolute;
   top: 245px;
   right: 337px;
+}
+
+.flower-stem2 {
+  width: 7px;
+  height: 45px;
+  background: mediumseagreen;
+  margin: 30px auto;
+  position: absolute;
+  top: 255px;
+  right: 378px;
+  transform: rotate(-50deg);
 }
 
 .candle {
@@ -102,40 +127,112 @@ body {
   border-radius: 10%;
 }
 
-.flower-stem2 {
-  width: 9px;
-  height: 45px;
-  background: mediumseagreen;
-  margin: 30px auto;
-  position: absolute;
-  top: 245px;
-  right: 345px;
-}
-
 .petal {
 border-radius: 5px 90%;
-  border-color: black;
   background-color: darkviolet;
   height: 40px;
   margin: auto;
   width: 30px;
   position: absolute;
   top: 230px;
-  right: 345px;
+  right: 330px;
 
 }
 
 .petal2 {
 border-radius: 5px 90%;
-  border-color: black;
   background-color: mediumpurple;
   height: 40px;
   margin: auto;
   width: 30px;
   position: absolute;
   top: 230px;
-  right: 335px;
+  right: 320px;
   transform: rotate(45deg);
+ }
 
+  .petal3 {
+  border-radius: 5px 90%;
+    background-color: darkviolet;
+    height: 40px;
+    margin: auto;
+    width: 30px;
+    position: absolute;
+    top: 230px;
+    right: 315px;
+    transform: rotate(90deg);
+}
+
+.petal4 {
+border-radius: 5px 90%;
+  background-color: mediumpurple;
+  height: 40px;
+  margin: auto;
+  width: 30px;
+  position: absolute;
+  top: 242px;
+  right: 315px;
+  transform: rotate(135deg);
+}
+
+.petal5 {
+border-radius: 5px 90%;
+  background-color: darkviolet;
+  height: 40px;
+  margin: auto;
+  width: 30px;
+  position: absolute;
+  top: 250px;
+  right: 310px;
+  transform: rotate(180deg);
+}
+
+.petal6 {
+border-radius: 5px 90%;
+  background-color: mediumpurple;
+  height: 40px;
+  margin: auto;
+  width: 30px;
+  position: absolute;
+  top: 255px;
+  right: 325px;
+  transform: rotate(225deg);
+}
+
+.petal7 {
+border-radius: 5px 90%;
+  background-color: darkviolet;
+  height: 40px;
+  margin: auto;
+  width: 30px;
+  position: absolute;
+  top: 245px;
+  right: 335px;
+  transform: rotate(270deg);
+}
+
+.petal8 {
+border-radius: 5px 90%;
+  background-color: mediumpurple;
+  height: 40px;
+  margin: auto;
+  width: 30px;
+  position: absolute;
+  top: 237px;
+  right: 335px;
+  transform: rotate(315deg);
+}
+
+.flower{
+border-radius: 5px 90%;
+  background-color: mediumpurple;
+  height: 50px;
+  margin: auto;
+  width: 20px;
+  position: absolute;
+  top: 290px;
+  right: 397px;
+  transform: rotate(215deg);
+}
 
 /* Your CSS goes here */
