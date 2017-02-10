@@ -1,16 +1,17 @@
 body {
-  background-color: black;
+  background-color:  #e6ffff;
   text-align: center;
   font-family: Verdana;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 p {
   color: white;
-  opacity: 1;
+  opacity: 0.8;
   transition: opacity 0.4s;
 }
 
 p:hover {
-  opacity: 0.2;
+  opacity: 1;
+  font-size: 13px;
 }
