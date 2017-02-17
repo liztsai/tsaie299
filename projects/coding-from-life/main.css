@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+p {
+  color: white;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+p:hover {
+  opacity: 0.2;
+}
+
+a {
+    background: #950006;
+    border: none;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+    text-decoration: none;
+    width: 100px
+}
+
+a:before{
+    background: #950006;
+    border: none;
+    content: '';
+    display: block;
+    height: 20px;
+    left: 90px;
+    position: absolute;
+    top: 4px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 21px;
+}
+a button {
+    color: #fff;
+    background: none;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    width: 120px;
+    height: 28px;
+}
