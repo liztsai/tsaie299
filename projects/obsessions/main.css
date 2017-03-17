@@ -7,13 +7,13 @@ body {
 
 h1 {
     font-size: 500%;
-    color: lightsteelblue;
+    color: blanchedalmond;
 }
 
 p {
     font-size: 300%;
     text-align: left;
-    color: lightgray;
+    color: antiquewhite;
 }
 
 .rotate:hover {
