@@ -34,3 +34,40 @@ if (time > 7 && time < 9:40); {
 else {
   console.log("no");
 }
+
+
+var date;
+if (date == 1); {
+  console.log("It's Monday");
+}
+else if (date = 2); {
+  console.log("It's Tuesday");
+}
+else if (date = 3); {
+  console.log("It's Wednesday");
+}
+else if (date = 4); {
+  console.log("It's Thursday");
+}
+else if (date = 5); {
+  console.log("It's Friday");
+}
+else if (date = 6); {
+  console.log("It's Saturday");
+}
+else {
+  console.log("It's Sunday");
+}
+
+var food = [corndogs, fried chicken, bagels];
+var animals = [tyrell, panda, raccoon];
+var places = [los angeles, shanghai asian manor, inner harbor];
+var pokemon = [eve, charizard, lugia];
+
+var big = [food, animals, places, pokemon];
+
+var loop = ["food", "animals", "places", "pokemon"];
+
+for (var i = 0, i > 3, i++) {
+  console.log(loop[i]);
+}
