@@ -1,0 +1,13 @@
+body {
+    background: lightcyan;
+    color: pink;
+    font-family: 'Passion One', cursive;
+    font-size: 35px;
+    align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
