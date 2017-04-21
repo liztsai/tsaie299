@@ -1,17 +1,43 @@
 body {
-  background-color:  #e6ffff;
+  background-color:  black;
   text-align: center;
-  font-family: Verdana;
-  font-size: 14px;
+  font-family: 'Megrim', cursive;
+  font-size: 30px;
+  color: white;
+  text-shadow: -4px -4px 10px lightcyan, 4px -4px 10px lightcyan,
+  -4px 4px 10px lightcyan, 4px 4px 10px lightcyan;
 }
 
 p {
   color: white;
-  opacity: 0.8;
+  opacity: 1;
   transition: opacity 0.4s;
+  font-size: 20px;
 }
 
 p:hover {
   opacity: 1;
   font-size: 13px;
+}
+
+a:link {
+  background-color: none;
+  color:white;
+  text-shadow: -4px -4px 10px cornflowerblue, 4px -4px 10px cornflowerblue,
+  -4px 4px 10px cornflowerblue, 4px 4px 10px cornflowerblue;
+}
+
+a:visited {
+    background-color: none;
+    color:white;
+    text-shadow: -4px -4px 10px cornflowerblue, 4px -4px 10px cornflowerblue,
+    -4px 4px 10px cornflowerblue, 4px 4px 10px cornflowerblue;
+  }
+
+
+a:hover {
+  background-color: none;
+  color:white;
+  text-shadow: -4px -4px 10px cornflowerblue, 4px -4px 10px cornflowerblue,
+  -4px 4px 10px cornflowerblue, 4px 4px 10px cornflowerblue;
 }
