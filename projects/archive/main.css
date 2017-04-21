@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: black;
+}
+
+h1{
+  border-style: solid;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-size: 20px;
+}
