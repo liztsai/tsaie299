@@ -1,0 +1,31 @@
+.letterfx-container{
+
+}
+
+.letterfx{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    transition: all 1s; -ms-transition: all 1s; -webkit-transition: all 1s;
+}
+
+.letterfx-fall-before
+{
+    visibility: hidden;
+    transform:scale(3,3); -ms-transform:scale(3,3); -webkit-transform:scale(3,3);
+}
+
+.letterfx-fall-after{
+    transform:scale(1,1); -ms-transform:scale(1,1); -webkit-transform:scale(1,1);
+    text-shadow:0;
+}
+
+.letterfx-fly-top-container .letterfx,
+
+{
+    position:relative;
+}
+
+.letterfx-fly-top-before{ top:-20em; }
+.letterfx-fly-top-after{ top:0; }
+

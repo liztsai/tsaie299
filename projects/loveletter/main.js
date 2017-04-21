@@ -1,8 +1,3 @@
-var narrative = ['Games', 'on', 'Cartoon', 'Network', 'and', 'Disney', 'Channel', 'websites', 'used',  'to', 'basically', 'consume', 'my', 'life.' ];
-var missed = []
-var caught =[]
-
-
 $(document).keydown(function (e) {
     var distance = 20;
     var keyId = e.which;
@@ -24,4 +19,22 @@ $(document).keydown(function (e) {
             });
         }
     }
+});
+
+$(document).ready(function () {
+    setInterval(function () {
+        animatePhrase();
+    }, 3000);
+
+    function animatePhrase() {
+        $(".tagline").letterfx({
+            "fx": "fly-top",
+            "backwards": false,
+            "timing": 50,
+            "fx_duration": "1000ms",
+            "letter_end": "stay",
+            "element_end": "stay"
+        });
+    }
+
 });
