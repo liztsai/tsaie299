@@ -1,0 +1,14 @@
+.body {
+  font-family: Arial, sans-serif;
+}
+.box {
+    float: left;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    background-color: gainsboro;
+}
+
+.after-box {
+    clear: left;
+}

@@ -1,0 +1,26 @@
+.box {
+    width: 75px;
+    height: 75px;
+    font-family: Arial, sans-serif;
+    color: darkorchid;
+    border-style: solid;
+    border-color: darkorchid;
+    float: left;
+    background-color: white;
+    text-align: center;
+    vertical-align: center;
+    border-spacing: 40px;
+}
+
+p {
+   font-size: 16px;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  border-color: black;
+  background-color: white;
+  text-align: center;
+}
+
