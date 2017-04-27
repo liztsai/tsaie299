@@ -1,0 +1,20 @@
+.body {
+  background-color: lightcyan;
+}
+
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 300px) {
+
+}
+
+@media (max-width: 200px) {
+
+}
+
+@media (max-width: 800px) {
+
+}
