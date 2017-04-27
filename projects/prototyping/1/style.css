@@ -3,28 +3,28 @@
 }
 
 
-@media (max-width: 15000px) {
+@media (max-width: 1100px) {
   body {
      background-color: white;
    }
 
 }
 
-@media (max-width: 900px) {
+@media (min-width: 1000px) {
   body {
      background-color: yellow;
    }
 
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 900px) {
   body {
      background-color: blue;
    }
 
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 700px) {
   body {
      background-color: black;
    }
