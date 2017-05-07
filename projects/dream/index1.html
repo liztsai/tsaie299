@@ -12,26 +12,52 @@
 
   <body>
 
-  <audio controls>
-    <source src="horse.ogg" type="audio/ogg">
-    <source src="rain.wav" type="audio/mpeg">
-  </audio>
+  <div class ="rainaudio">
+    <script>
+    function rain(){
+         var audio = document.getElementById("audio");
+         audio.play();
+                   }
+     </script>
+  <input type="button" value="rain"  onclick="rain()">
+  <audio id="audio" src="rain.wav" ></audio>
+    </div>
 
-  rain
-    <br>
-    <img src="raindrop.png" alt="rain" height="100">
-    <div id="rain">
-        <div id="volume"></div>
-      </div>
-  thunder
-  <br>
-  bird
-  <br>
-  wind
-  <br>
-  waves
-  <br>
-  city
+  <div class = "rain1">
+     <svg id="rain" data-name="rain" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768" height=100%><defs>
+     <style>
+
+     .cls-1{
+      fill:none;
+      stroke:#bbecf9;
+      stroke-miterlimit:10;
+      stroke-width:20px;
+      }
+      </style> </defs>
+
+     <title>Rain</title>
+     <line class="cls-1" x1="-499.5" y1="-80.5" x2="499.5" y2="1347.5"/>
+     <line class="cls-1" x1="-265.5" y1="-132.5" x2="733.5" y2="1295.5"/>
+     <line class="cls-1" x1="0.5" y1="-177.5" x2="999.5" y2="1250.5"/>
+     <line class="cls-1" x1="242.5" y1="-235.5" x2="1241.5" y2="1192.5"/>
+     line class="cls-1" x1="476.5" y1="-287.5" x2="1475.5" y2="1140.5"/>
+     <line class="cls-1" x1="742.5" y1="-332.5" x2="1741.5" y2="1095.5"/>
+     line class="cls-1" x1="999.5" y1="-332.5" x2="1998.5" y2="1095.5"/>
+     </svg>
+  </div>
+
+<div class = "thunderaudio">
+  <script>
+     function thunder(){
+          var audio2 = document.getElementById("audio2");
+          audio2.play();
+      }
+  </script>
+  <input type="button2" value="thunder"  onclick="thunder()">
+  <audio id="audio2" src="thunder.wav"></audio>
+</div>
+
+
     </body>
   </body>
 </html>
