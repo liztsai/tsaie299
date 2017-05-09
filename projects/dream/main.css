@@ -5,4 +5,8 @@ body {
   font-size: 30px;
 }
 
+button {
+    display: inline-block;
+    height: 134px;
+}
 

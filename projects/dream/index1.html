@@ -1,63 +1,148 @@
+
 <html>
-  <title>
-   Dream Vacation
-  </title>
-   <head>
-     <link href="main.css" rel="stylesheet" type="text/css">
-     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-     <script src="main.js"></script>
-     <style type="text/css">
-     </style>
-  </head>
+<title>
+    Dream Vacation
+</title>
 
-  <body>
+<head>
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
-  <div class ="rainaudio">
     <script>
-    function rain(){
-         var audio = document.getElementById("audio");
-         audio.play();
-                   }
-     </script>
-  <input type="button" value="rain"  onclick="rain()">
-  <audio id="audio" src="rain.wav" ></audio>
+        function rain() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+
+        function unhide(mouseDown, rain1) {
+        var rainshow = document.getElementById(rain1);
+        if (rainshow) {
+            if(rainshow.className=='hidden'){
+                rainshow.className = 'unhidden' ;
+                clickedButton.value = 'hide'
+            }else{
+                rainshow.className = 'hidden';
+                clickedButton.value = 'unhide'
+            }
+        }}
+
+
+        function thunder() {
+            var audio2 = document.getElementById("audio2");
+            audio2.play();
+        }
+
+        function bird() {
+            var audio3 = document.getElementById("audio3");
+            audio3.play();
+        }
+
+        function city() {
+            var audio4 = document.getElementById("audio4");
+            audio4.play();
+        }
+
+        function fire() {
+            var audio5 = document.getElementById("audio5");
+            audio5.play();
+        }
+
+        function honk() {
+            var audio6 = document.getElementById("audio6");
+            audio6.play();
+        }
+
+        function wind() {
+            var audio7 = document.getElementById("audio7");
+            audio7.play();
+        }
+
+    </script>
+    <title>Rain</title>
+</head>
+
+<body>
+   <div style="position: absolute; left: 50px; top: 40px;">
+       <img src="rain.svg" height="120" onclick="rain();" />
+       <audio id="audio" src="rain.wav"></audio>
+   </div>
+
+    <div class="rain1">
+        <svg id="rain" data-name="rain" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768" height=100%>
+            <defs>
+                <style>
+                    .cls-1 {
+                        fill: none;
+                        stroke: #bbecf9;
+                        stroke-miterlimit: 10;
+                        stroke-width: 10px;
+                        padding: 0;
+                        width: 100%;
+                    }
+
+                    .hidden{
+                        display:none;
+                    }
+
+                    .unhidden{
+                        display:block;
+                    }
+
+                </style>
+            </defs>
+            <line class="cls-1" x1="-499.5" y1="-80.5" x2="499.5" y2="1347.5" />
+            <line class="cls-1" x1="-265.5" y1="-132.5" x2="733.5" y2="1295.5" />
+            <line class="cls-1" x1="0.5" y1="-177.5" x2="999.5" y2="1250.5" />
+            <line class="cls-1" x1="242.5" y1="-235.5" x2="1241.5" y2="1192.5" />
+            <line class="cls-1" x1="476.5" y1="-287.5" x2="1475.5" y2="1140.5" />
+            <line class="cls-1" x1="742.5" y1="-332.5" x2="1741.5" y2="1095.5" />
+            <line class="cls-1" x1="999.5" y1="-332.5" x2="1998.5" y2="1095.5" />
+        </svg>
     </div>
 
-  <div class = "rain1">
-     <svg id="rain" data-name="rain" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768" height=100%><defs>
-     <style>
+    <div style="position: absolute; left: 200px; top: 40px;">
+        <img src=" thunder.svg" height="120" onclick="thunder();" />
+        <audio id="audio2" src="thunder.wav"></audio>
+    </div>
 
-     .cls-1{
-      fill:none;
-      stroke:#bbecf9;
-      stroke-miterlimit:10;
-      stroke-width:20px;
-      }
-      </style> </defs>
+    <div style="position: absolute; left: 350px; top: 40px;">
+        <img src="bird1.svg" height="120" onclick="bird();" />
+        <audio id="audio3" src="bird.wav"></audio>
+    </div>
 
-     <title>Rain</title>
-     <line class="cls-1" x1="-499.5" y1="-80.5" x2="499.5" y2="1347.5"/>
-     <line class="cls-1" x1="-265.5" y1="-132.5" x2="733.5" y2="1295.5"/>
-     <line class="cls-1" x1="0.5" y1="-177.5" x2="999.5" y2="1250.5"/>
-     <line class="cls-1" x1="242.5" y1="-235.5" x2="1241.5" y2="1192.5"/>
-     line class="cls-1" x1="476.5" y1="-287.5" x2="1475.5" y2="1140.5"/>
-     <line class="cls-1" x1="742.5" y1="-332.5" x2="1741.5" y2="1095.5"/>
-     line class="cls-1" x1="999.5" y1="-332.5" x2="1998.5" y2="1095.5"/>
-     </svg>
-  </div>
+    <div style="position: absolute; left: 500px; top: 40px;">
+        <img src="city1.svg" height="120" onclick="city();" />
+        <audio id="audio4" src="city.wav"></audio>
+    </div>
 
-<div class = "thunderaudio">
-  <script>
-     function thunder(){
-          var audio2 = document.getElementById("audio2");
-          audio2.play();
-      }
-  </script>
-  <input type="button2" value="thunder"  onclick="thunder()">
-  <audio id="audio2" src="thunder.wav"></audio>
-</div>
+    <div style="position: absolute; left: 650px; top: 40px;">
+        <img src="fire.svg" height="120" onclick="fire();" />
+        <audio id="audio5" src="fire.wav"></audio>
+    </div>
 
+    <div style="position: absolute; left: 100px; top: 200px;">
+        <img src="honk1.svg" height="120" onclick="honk();" />
+        <audio id="audio6" src="honk.wav"></audio>
+    </div>
 
-    </body>
-  </body>
+    <div style="position: absolute; left: 250px; top: 200px;">
+        <img src="wind.svg" height="120" onclick="wind();" />
+        <audio id="audio7" src="wind.wav"></audio>
+    </div>
+
+    <div class="wind1">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 768">
+            <defs>
+                <style>
+                    .cls-1 {
+                        fill:#f2b55c;
+                    }
+                </style>
+            </defs>
+            <path class="cls-1" d="M920.5,456.5s15-11,59,15c0,0,8-8,40-9,0,0-19-7,31-39,0,0-52,6-7-40,0,0-28,17,7-59,0,0-16,16-36,15s-22,14-38,13c0,0,3-28,5-51,0,0-22,35-20-10,0,0-4,24-41-61,0,0-11,73-30,53,0,0-3,43-19,13,0,0,22,100-83,21,0,0,31,62,17,85,0,0,30,18-14,28,0,0,45,11,35,20,0,0,22,2,14,10,0,0,10,7,35-3S921.5,447.5,920.5,456.5Z"/>
+            <path class="cls-1" d="M930,527h8s-28-26-17-71V432l-4,5S910,500,930,527Z"/>
+        </svg>
+
+</body>
+
 </html>
