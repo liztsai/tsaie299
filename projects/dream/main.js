@@ -11,66 +11,76 @@ function rain() {
 function thunder() {
     var audio2 = document.getElementById("audio2");
 
-    if ( audio.paused ) {
-      audio.play();
+    if ( audio2.paused ) {
+      audio2.play();
     } else {
-      audio.pause()
+      audio2.pause()
     }
 }
 
 function bird() {
     var audio3 = document.getElementById("audio3");
 
-    if ( audio.paused ) {
-      audio.play();
+    if ( audio3.paused ) {
+      audio3.play();
     } else {
-      audio.pause()
+      audio3.pause()
     }
 }
 
 function city() {
     var audio4 = document.getElementById("audio4");
 
-    if ( audio.paused ) {
-      audio.play();
+    if ( audio4.paused ) {
+      audio4.play();
     } else {
-      audio.pause()
+      audio4.pause()
     }
 }
 
 function fire() {
     var audio5 = document.getElementById("audio5");
 
-    if ( audio.paused ) {
-      audio.play();
+    if ( audio5.paused ) {
+      audio5.play();
     } else {
-      audio.pause()
+      audio5.pause()
     }
 }
 
 function honk() {
     var audio6 = document.getElementById("audio6");
 
-    if ( audio.paused ) {
-      audio.play();
+    if ( audio6.paused ) {
+      audio6.play();
     } else {
-      audio.pause()
+      audio6.pause()
     }
 }
 
 function wind() {
     var audio7 = document.getElementById("audio7");
 
-    if ( audio.paused ) {
-      audio.play();
+    if ( audio7.paused ) {
+      audio7.play();
     } else {
-      audio.pause()
+      audio7.pause()
     }
 }
 
 function rain1() {
     var rain1 = $('.rain1.background');
     rain1.toggle();
+}
+
+function thunder2() {
+    var thunder2 = $('.thunder2.background');
+    thunder2.toggle();
+}
+
+function bird2() {
+    var bird2 = $('.bird2.background');
+    bird2.toggle();
 }
 
 function city2() {
