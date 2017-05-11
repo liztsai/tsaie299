@@ -79,29 +79,16 @@ function city2() {
 }
 
 function fire2() {
-    var fire2 = document.getElementById('fire2');
-    if (fire2.style.display === 'none') {
-        fire2.style.display = 'block';
-    } else {
-        fire2.style.display = 'none';
-    }
+    var fire2 = $('.fire2.background');
+    fire2.toggle();
 }
 
 function honk2() {
-    var honk2 = document.getElementById('honk2');
-    if (honk2.style.display === 'none') {
-        honk2.style.display = 'block';
-    } else {
-        honk2.style.display = 'none';
-    }
+    var honk2 = $('.honk2.background');
+    honk2.toggle();
 }
 
-
 function wind2() {
-    var wind2 = document.getElementById('wind2');
-    if (wind2.style.display === 'none') {
-        wind2.style.display = 'block';
-    } else {
-        wind2.style.display = 'none';
-    }
+    var wind2 = $('.wind2.background');
+    wind2.toggle();
 }
