@@ -14,11 +14,7 @@ function thunder() {
     if ( audio2.paused ) {
       audio2.play();
     } else {
-<<<<<<< HEAD
       audio2.pause();
-=======
-      audio2.pause()
->>>>>>> a231cf606e8b6fbc56c645f6ba66391545dfd91d
     }
 }
 
@@ -28,11 +24,7 @@ function bird() {
     if ( audio3.paused ) {
       audio3.play();
     } else {
-<<<<<<< HEAD
       audio3.pause();
-=======
-      audio3.pause()
->>>>>>> a231cf606e8b6fbc56c645f6ba66391545dfd91d
     }
 }
 
@@ -42,11 +34,7 @@ function city() {
     if ( audio4.paused ) {
       audio4.play();
     } else {
-<<<<<<< HEAD
       audio4.pause();
-=======
-      audio4.pause()
->>>>>>> a231cf606e8b6fbc56c645f6ba66391545dfd91d
     }
 }
 
@@ -56,17 +44,12 @@ function fire() {
     if ( audio5.paused ) {
       audio5.play();
     } else {
-<<<<<<< HEAD
       audio5.pause();
-=======
-      audio5.pause()
->>>>>>> a231cf606e8b6fbc56c645f6ba66391545dfd91d
     }
 }
 
 function honk() {
     var audio6 = document.getElementById("audio6");
-<<<<<<< HEAD
     $('#flash').click(function hoverFunction() {
         $(this).fadeOut(10);
         $(this).fadeIn(500);
@@ -75,14 +58,10 @@ function honk() {
         audio6.play();
     } else {
         audio6.pause();
-=======
-
-    if ( audio6.paused ) {
-      audio6.play();
-    } else {
-      audio6.pause()
->>>>>>> a231cf606e8b6fbc56c645f6ba66391545dfd91d
     }
+    setInterval(function () {
+            rotate(360, "flash");
+        }, 1500);
 }
 
 function wind() {
@@ -91,12 +70,22 @@ function wind() {
     if ( audio7.paused ) {
       audio7.play();
     } else {
-<<<<<<< HEAD
       audio7.pause();
-=======
-      audio7.pause()
->>>>>>> a231cf606e8b6fbc56c645f6ba66391545dfd91d
     }
+}
+
+function rotate(d, id) {
+    $({
+        deg: 0
+    }).animate({
+        deg: d
+    }, {
+        step: function (current) {
+            $("#" + id).css({
+                transform: "rotate(" + current + "deg)"
+            });
+        }
+    });
 }
 
 function rain1() {
@@ -121,6 +110,11 @@ function city2() {
 
 function fire2() {
     var fire2 = $('.fire2.background');
+    setInterval(function () {
+        rotate(360, "f1");
+        rotate(360, "f2");
+        rotate(360, "f3");
+    }, 1000);
     fire2.toggle();
 }
 
