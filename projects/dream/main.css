@@ -39,17 +39,29 @@ body {
   fill:#0256CE;
 }
 
+<<<<<<< HEAD
+=======
+.thunder2 {
+  fill:#0256CE;
+}
+
+>>>>>>> a231cf606e8b6fbc56c645f6ba66391545dfd91d
 .thunder3 {
   animation: moveRight 5s infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
 }
 
+<<<<<<< HEAD
  .bird2 {
+=======
+ .bird2 { 
+>>>>>>> a231cf606e8b6fbc56c645f6ba66391545dfd91d
   fill:none;
   stroke:#7000B2;
   stroke-width:3;
   stroke-miterlimit:10;
+<<<<<<< HEAD
 }
 
 .bird3 {
@@ -58,6 +70,8 @@ body {
     transition-property: transform;
     transition-duration: 25s;
     transition-timing-function: ease-in-out;
+=======
+>>>>>>> a231cf606e8b6fbc56c645f6ba66391545dfd91d
 }
 
 .city2 {
@@ -100,6 +114,7 @@ body {
   opacity: 20%;
 }
 
+<<<<<<< HEAD
 
 .fire3 {
     width: 100px;
@@ -114,12 +129,33 @@ body {
 }
 
 
+=======
+.fire3 {
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+>>>>>>> a231cf606e8b6fbc56c645f6ba66391545dfd91d
 .honk2 {
   width: 100%;
 }
 
-.wind2 {
+.honk3 {
+    -ms-transform: rotate(7deg); 
+    -webkit-transform: rotate(7deg); 
+    transform: rotate(7deg);
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.wind2 {  
     fill:#f2b55c;
+}
+
+.wind3 {
+  position: relative;
+  transform: rotate(180deg) scale(2);
 }
 
 .background {
@@ -130,3 +166,22 @@ body {
   display: none;
 }
 
+@keyframes moveRight {
+  from { transform: translateX(0%); }
+  to   { transform: translateX(40%); }
+}
+
+@keyframes moveLeft {
+  from { transform: translateX(-40%); }
+  to { transform: translateX(0%); } 
+}
+
+@keyframes grow {
+  from { transform: scale(1); }
+  to { transform: scale(2); }
+}
+
+@-webkit-keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(70deg); }
+} 
