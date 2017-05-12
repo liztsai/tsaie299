@@ -112,8 +112,11 @@ function fire2() {
     var fire2 = $('.fire2.background');
     setInterval(function () {
         rotate(360, "f1");
-        rotate(360, "f2");
-        rotate(360, "f3");
+        rotate(80, "f2");
+        rotate(40, "f3");
+        rotate(60, "f5");
+        rotate(100, "f6");
+        rotate(240, "f7");
     }, 1000);
     fire2.toggle();
 }
